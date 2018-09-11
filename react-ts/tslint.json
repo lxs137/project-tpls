@@ -1,5 +1,4 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "class-name": true,
     "comment-format": [

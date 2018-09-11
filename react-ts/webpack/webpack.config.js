@@ -25,6 +25,10 @@ module.exports = {
   resolve: {
     // Add ".ts" and ".tsx" as resolvable extensions.
     extensions: [".ts", ".tsx", ".js"],
+    alias: {
+      "styles": path.resolve(__dirname, "../styles"),
+      "assets": path.resolve(__dirname, "../assets")
+    },
     modules: [
       path.resolve(__dirname, "../src"), 
       "node_modules"

@@ -9,9 +9,9 @@
     "redux": "^4.0.0"
   },
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.dev.js --hot --progress --colors --content-base ./dist --host 127.0.0.1 --port 4000",
+    "start": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.dev.js --progress --colors --content-base ./dist --host 127.0.0.1 --port 4000",
     "start-dev": "npm run start",
-    "start-prod": "NODE_ENV=production webpack-dev-server --config ./webpack/webpack.prod.js --hot --progress --colors --content-base ./dist --host 127.0.0.1 --port 4000",
+    "start-prod": "NODE_ENV=production webpack-dev-server --config ./webpack/webpack.prod.js --progress --colors --content-base ./dist --host 127.0.0.1 --port 4000",
     "build-dev": "webpack --progress --config=webpack.dev.js",
     "build-prod": "webpack --progress --config=webpack.prod.js",
     "build-ts": "tsc",
